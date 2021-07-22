@@ -1,0 +1,12 @@
+type ItemDB2 {
+  "ID del Ítem"
+  id: ID!
+  "Nombre del Item"
+  name_japanese: String
+  "Descripción del Item"
+  descripcion: String
+  "Imagen del Item"
+  imagen: String
+  type: Int
+  view: Int
+}
