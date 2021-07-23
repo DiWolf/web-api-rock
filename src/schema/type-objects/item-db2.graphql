@@ -2,11 +2,20 @@ type ItemDB2 {
   "ID del Ítem"
   id: ID!
   "Nombre del Item"
-  name_japanese: String
+  name_english: String
+  type: Int
+  class: Int
+  price_buy: Int 
+  price_sell: Int
+  attack: Int 
+  equip_level: Int
+  weapon_level: Int 
+  slots: Int
+  refineable: Boolean
   "Descripción del Item"
   descripcion: String
   "Imagen del Item"
   imagen: String
-  type: Int
+  
   view: Int
 }

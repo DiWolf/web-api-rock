@@ -1,3 +1,4 @@
 type Query {
   getItemDb2: [ItemDB2]
+  getItemWeapon(type: Int, view: Int): [ItemDB2]
 }
